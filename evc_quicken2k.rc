@@ -1,0 +1,228 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\evc_quicken2k.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "res\\Trffc10a.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 100
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "aBout Quicken 2000 KeyGen"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         129,IDC_STATIC,"Static",SS_BITMAP,11,17,20,20
+    CTEXT           "KeyGen coded by Magic Mike",IDC_STATIC,64,10,119,8,
+                    SS_NOPREFIX
+    CTEXT           "Copyright (C) 2000\nEbola Virus Crew\nhttp://kickme.to/evc ",
+                    IDC_STATIC,94,22,78,28
+    DEFPUSHBUTTON   "Yeah!",IDOK,188,27,36,14,WS_GROUP,WS_EX_STATICEDGE
+    LTEXT           "MMke sends greetings to:\nAll EVC Members, joe t., the.pusher, denger, defiler, ultraschall, LaZaRuS, the owl, - yawn |-O - all in #c4n, #cracking, #learn2crack, - yawn |-O - lights out .. good night everybody #MMke*",
+                    IDC_STATIC,4,55,218,38
+END
+
+IDD_EVC_QUICKEN2K_DIALOG DIALOGEX 0, 0, 176, 160
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "EVC - Quicken 2000 KeyGen"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_Serial,103,62,55,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Ucode,103,102,55,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "&Go!",IDGO,62,121,56,14,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "a&Bout",IDAbout,21,140,36,14,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "e&Xit",IDCANCEL,121,140,36,14,0,WS_EX_STATICEDGE
+    LTEXT           "Your Serial Number is: ",IDC_STATIC,8,64,68,8
+    LTEXT           "Unlocking Code: ",IDC_STATIC,23,104,52,8
+    LTEXT           "Priority Code: ",IDC_STATIC,32,84,43,8,WS_DISABLED
+    EDITTEXT        IDC_unused,103,82,55,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         129,IDC_STATIC,"Static",SS_BITMAP | SS_REALSIZEIMAGE,14,
+                    12,50,22,WS_EX_STATICEDGE
+    LTEXT           "Magic Mike",IDC_STATIC,72,145,36,8,WS_DISABLED
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "Comments", "What r u doing here fucker?\0"
+            VALUE "CompanyName", "Ebola Virus Crew\0"
+            VALUE "FileDescription", "Quicken 2000 KeyGen\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "evc_quicken2k\0"
+            VALUE "LegalCopyright", "Copyright (C) 2000 by Magic Mike [EVC]\0"
+            VALUE "LegalTrademarks", "Ebola Virus Crew\0"
+            VALUE "OriginalFilename", "evc_quicken2k.EXE\0"
+            VALUE "PrivateBuild", "lick_my_emotions_and_feel_the_funky_bAss\0"
+            VALUE "ProductName", "Quicken 2000 KeyGen\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "007mi6uk\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 93
+    END
+
+    IDD_EVC_QUICKEN2K_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 169
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 153
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\q2k.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "aB&out Quicken 2000 KeyGen"
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\evc_quicken2k.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.deu\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

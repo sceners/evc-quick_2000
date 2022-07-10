@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: evc_quicken2k - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release/evc_quicken2k.res" /d "NDEBUG" /d "_AFXDLL" "C:\PROGRAMME\MICROSOFT VISUAL STUDIO\MyProjects\evc_quicken2k\evc_quicken2k.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1D3.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/evc_quicken2k.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\PROGRAMME\MICROSOFT VISUAL STUDIO\MyProjects\evc_quicken2k\evc_quicken2k.cpp"
+"C:\PROGRAMME\MICROSOFT VISUAL STUDIO\MyProjects\evc_quicken2k\evc_quicken2kDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP1D3.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP01D4.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/evc_quicken2k.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\PROGRAMME\MICROSOFT VISUAL STUDIO\MyProjects\evc_quicken2k\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP01D4.TMP" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/evc_quicken2k.pdb" /machine:I386 /out:"Release/evc_quicken2k.exe"  ".\Release\evc_quicken2k.obj" ".\Release\evc_quicken2kDlg.obj" ".\Release\StdAfx.obj" ".\Release\evc_quicken2k.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+evc_quicken2k.cpp
+evc_quicken2kDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+evc_quicken2k.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
